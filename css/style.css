@@ -51,6 +51,41 @@ section {
 section h2 {
     color: #333;
 }
+/* Sezione Recensioni */
+#reviews {
+    background-color: #ffffff;
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 1000px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#reviews h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.review {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.review p {
+    font-style: italic;
+    color: #555;
+}
+
+.review strong {
+    display: block;
+    text-align: right;
+    margin-top: 0.5rem;
+    color: #333;
+}
 
 /* Footer */
 footer {
